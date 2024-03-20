@@ -1,7 +1,7 @@
 ﻿using AoC;
 using Tools;
 
-var data = await Data.GetInput(1).ToListAsync();
+var data = await Data.GetInput(2).ToListAsync();
 
-Console.WriteLine(Day1.Part1(data.First()!));
-Console.WriteLine(Day1.Part2(data.First()!));
+Console.WriteLine(Day2.Part1(data));
+Console.WriteLine(Day2.Part2(data));
