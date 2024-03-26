@@ -1,7 +1,7 @@
 ﻿using AoC;
 using Tools;
 
-// var data = await Data.GetInput(3).ToListAsync();
+var data = await Data.GetInput(5).ToListAsync();
 
-Console.WriteLine(Day4.Part1("iwrupvqb"));
-Console.WriteLine(Day4.Part2("iwrupvqb"));
+Console.WriteLine(Day5.Part1(data));
+Console.WriteLine(Day5.Part2(data));
