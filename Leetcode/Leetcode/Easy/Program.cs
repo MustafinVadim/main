@@ -1,3 +1,3 @@
 ﻿using Easy;
 
-Console.WriteLine(new Solution28().StrStr("leetcode", "leet"));
+Console.WriteLine(new Solution66().PlusOne([9, 9])[0]);
