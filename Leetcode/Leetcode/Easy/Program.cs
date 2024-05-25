@@ -1,3 +1,3 @@
 ﻿using Easy;
 
-Console.WriteLine(new LongestCommonPrefixSolution().LongestCommonPrefix(["vadim", "vadim"]));
+Console.WriteLine(new ValidParentheses().IsValid("(]"));
