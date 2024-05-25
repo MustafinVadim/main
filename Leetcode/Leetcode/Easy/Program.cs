@@ -1,5 +1,3 @@
 ﻿using Easy;
 
-var result = new MergeTwoSortedLists().MergeTwoLists(new ListNode(2), new ListNode(1));
-Console.WriteLine(result.val);
-Console.WriteLine(result.next.val);
+Console.WriteLine(new Solution28().StrStr("leetcode", "leet"));
