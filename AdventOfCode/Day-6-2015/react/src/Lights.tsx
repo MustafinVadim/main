@@ -1,4 +1,4 @@
-import React, {useEffect, useRef } from "react";
+import React, {useEffect, useRef} from "react";
 import "./Lights.css";
 
 const Lights: React.FC = () => {
@@ -14,11 +14,15 @@ const Lights: React.FC = () => {
         if (!context)
             return;
 
-
         let imgData = context.createImageData(1000, 1000);
-        context.fillStyle = '#a13434';
-
+        context.fillStyle = '#000000'
         context.putImageData(imgData, 0, 0);
+
+        
+
+
+
+
 
     }, []);
 
