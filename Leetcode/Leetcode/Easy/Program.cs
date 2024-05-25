@@ -1,3 +1,3 @@
 ﻿using Easy;
 
-Console.WriteLine(RomanToInteger.RomanToInt("MMMCMXCIX"));
+Console.WriteLine(new LongestCommonPrefixSolution().LongestCommonPrefix(["vadim", "vadim"]));
