@@ -1,3 +1,3 @@
 ﻿using Easy;
 
-Console.WriteLine(new Solution5().LongestPalindrome("babad"));
+Console.WriteLine(new Solution8().MyAtoi("words and 9873"));
