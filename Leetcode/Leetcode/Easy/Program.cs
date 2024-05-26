@@ -1,3 +1,3 @@
 ﻿using Easy;
 
-Console.WriteLine(new Solution3().LengthOfLongestSubstring("abcabcbb"));
+Console.WriteLine(new Solution5().LongestPalindrome("babad"));
